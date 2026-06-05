@@ -1,6 +1,6 @@
 site_name: pyMachDM
 site_description: Advanced Data Mechanics & Machine Learning Framework
-site_author: Deepanshu Kumar | Michigan State University
+site_author: Deepanshu Yadav | Michigan State University
 site_url: https://deepanshuIITM.github.io/pyMachDM
 
 repo_name: Source Code
@@ -9,12 +9,14 @@ repo_url: https://github.com/deepanshuIITM/pyMachDM
 theme:
   name: material
   language: en
-  
+  generator: false             
   features:
-    - navigation.tabs          # Top horizontal header menu
-    - navigation.tabs.sticky   # Keeps top header pinned
-    - navigation.top           # Smooth back to top button
-    - navigation.indexes       # Clicking a top option links cleanly to its sections
+    - navigation.tabs          # Top horizontal bar menu items
+    - navigation.tabs.sticky   # Pins top bar while scrolling
+    - navigation.top           # Back to top button arrow
+    - navigation.tracking      # Highlights right sidebar headings dynamically
+    - navigation.expand        # Forces left sidebar sections to stay expanded
+    - navigation.footer        # <-- CRITICAL: Automatically builds crisp "Previous" and "Next" buttons at the bottom
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -39,6 +41,10 @@ theme:
 extra_css:
   - stylesheets/extra.css
 
+# ADD THIS BLOCK TO ENERGIZE LATEX MATH CODES NATIVELY
+extra_javascript:
+  - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
+
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -49,8 +55,51 @@ markdown_extensions:
       generic: true
   - admonition                 
 
+copyright: >
+  Copyright &copy; 2026 Deepanshu Yadav | Michigan State University. All rights reserved.
+  <span style="margin-left: 15px;">
+    <a href="https://github.com/deepanshuIITM/pyMachDM" target="_blank"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" style="vertical-align: middle;" alt="Version"></a>
+    <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="vertical-align: middle; margin-left: 5px;" alt="License"></a>
+  </span>
+
+# NESTED NAVIGATION: Creates clean sub-levels and sub-sub-levels in the left menu
 nav:
-  - Home: index.md
-  - Installation: installation.md
+  - Home: 
+      - Overview: home/index.md
+      - Key Features: home/features.md
+      - Quick Start: home/quickstart.md
+  - Installation:
+      - Setup Guide: installation/setup.md
+      - Configuration:
+          - Requirements: installation/requirements.md
+          - Installation Steps: installation/steps.md
+      - Troubleshooting: installation/troubleshooting.md
+  - Interactive MCDMs:
+      - Overview: imcdm/overview.md
+      - Preference Elicitation:
+          - Objective Class: imcdm/preferences/obj_class.md
+          - Bounding Parameters: imcdm/preferences/bounding_params.md
+          - Reference Points: imcdm/preferences/reference_points.md
+          - Reference Directions: imcdm/preferences/reference_directions.md
+          - Intermediate Solutions: imcdm/preferences/intermediate_solns.md
+      - iMCDM Methods:
+          - GUESS: imcdm/methods/guess.md
+          - STEM: imcdm/methods/stem.md
+          - STOM: imcdm/methods/stom.md
+          - NIMBUS: imcdm/methods/nimbus.md
+      - Scalarization Methods: imcdm/scalarization.md
+
+  - Machine-DM: 
+      - Overview: mach-dm/machdm.md
+      - Class Predictor ANN: mach-dm/class_predictor.md
+      - Parameter Predictor ANN: mach-dm/parameter_predictor.md
+      - Preference Evaluator Metric: mach-dm/preference_evaluator.md
+  - Bench-iMCDM:
+      - Overview: bench-imcdm/overview.md
+      - Benchmark Problems:
+          - DTLZ7: bench-imcdm/problems/dtlz.md
+      - Pretrained ANNs: bench-imcdm/pretrained.md
+      - Performance Metrics: bench-imcdm/metrics.md
+  - Visualization: visualization.md
   - Tutorials: tutorials.md
-  - Theory & Citations: theory.md
+  - References: references.md
