@@ -65,7 +65,7 @@ copyright: >
 # NESTED NAVIGATION: Creates clean sub-levels and sub-sub-levels in the left menu
 nav:
   - Home: 
-      - Overview: home/index.md
+      - Overview: index.md
       - Key Features: home/features.md
       - Quick Start: home/quickstart.md
   - Installation:
