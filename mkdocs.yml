@@ -1,10 +1,10 @@
 site_name: pyMachDM
 site_description: Advanced Data Mechanics & Machine Learning Framework
 site_author: Deepanshu Yadav | Michigan State University
-site_url: https://deepanshuIITM.github.io/pyMachDM
+site_url: https://deepanshuIITM.github.io/pyMachDM/
 
 repo_name: Source Code
-repo_url: https://github.com/deepanshuIITM/pyMachDM
+repo_url: https://github.com/deepanshuIITM/pyMachDM/
 
 theme:
   name: material
