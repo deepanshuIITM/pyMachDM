@@ -9,7 +9,12 @@ repo_url: https://github.com/deepanshuIITM/pyMachDM
 theme:
   name: material
   language: en
-  generator: false             
+  generator: false   
+
+  # ADD THESE TWO LINES TO OVERRIDE THE DEFAULT ICONS
+  logo: assets/images/logo1.png        # Replaces the graduation cap in the top bar
+  favicon: assets/images/logo1.png  # Replaces the icon shown in the browser tab
+
   features:
     - navigation.tabs          # Top horizontal bar menu items
     - navigation.tabs.sticky   # Pins top bar while scrolling
