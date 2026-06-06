@@ -6,10 +6,10 @@
 
 $$
 \begin{aligned}
-\text{minimize} \quad & \mathbf{f}(\mathbf{x}) = \left( f_1(\mathbf{x}), f_2(\mathbf{x}), \dots, f_m(\mathbf{x}) \right)^T \\
-\text{subject to} \quad & g_i(\mathbf{x}) \le 0, \quad i = 1, 2, \dots, p \\
-& h_j(\mathbf{x}) = 0, \quad j = 1, 2, \dots, q \\
-& \mathbf{x} \in \mathcal{S}
+\text{minimize} \quad & \mathbf{f}(\mathbf{x}) = \left\{ f_1(\mathbf{x}), f_2(\mathbf{x}), \dots, f_M(\mathbf{x}) \right\}^T \\
+\text{subject to} \quad & g_j(\mathbf{x}) \le 0, \quad j = 1, 2, \dots, J \\
+& h_k(\mathbf{x}) = 0, \quad k = 1, 2, \dots, K \\
+& x_i^{LB} \leq x_i \leq x_i^{UB}, \quad i = 1, 2, \dots, n.
 \end{aligned}
 $$
 
@@ -17,7 +17,8 @@ where-
 
 * **$\mathbf{x}$:** The $n$-dimensional decision variable vector within the feasible space $\mathcal{S}$.
 * **$\mathbf{f}(\mathbf{x})$:** The objective vector representing $m$ distinct criteria ($m \ge 2$).
-* **$g_i(\mathbf{x}), h_j(\mathbf{x})$:** The inequality and equality constraints mapping system boundaries.
+* **$g_j(\mathbf{x})$:** $J$ inequality constraints.
+* **$h_k(\mathbf{x})$:** $K$ equality constraints.
 
 ---
 

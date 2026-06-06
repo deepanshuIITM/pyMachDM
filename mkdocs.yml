@@ -26,7 +26,7 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo          
+      primary: indigo        
       accent: indigo
       toggle:
         icon: material/weather-sunny
@@ -51,6 +51,7 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 markdown_extensions:
+  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
   - pymdownx.inlinehilite
@@ -66,6 +67,8 @@ copyright: >
     <a href="https://github.com/deepanshuIITM/pyMachDM" target="_blank"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" style="vertical-align: middle;" alt="Version"></a>
     <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="vertical-align: middle; margin-left: 5px;" alt="License"></a>
   </span>
+
+docs_dir: docs
 
 # NESTED NAVIGATION: Creates clean sub-levels and sub-sub-levels in the left menu
 nav:

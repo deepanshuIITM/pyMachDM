@@ -1950,8 +1950,27 @@
   <h1>Class Predictor ANN</h1>
 
 <h3 id="defining-objective-class">Defining Objective Class</h3>
+<hr />
 <h3 id="data-preperation">Data Preperation</h3>
-<h3 id="training-ann1-mathcalf_cl">Training ANN1: <span class="arithmatex">\(\mathcal{F}_{CL}\)</span></h3>
+<hr />
+<h3 id="training-ann1-mathcalf_cl"><strong>Training ANN1: <span class="arithmatex">\(\mathcal{F}_{CL}\)</span></strong></h3>
+<p>Class Predictor ML (<span class="arithmatex">\(\mathcal{F}_{CL}\)</span>) takes Pareto-optimal solution <span class="arithmatex">\((\mathbf{x}^*)\)</span> as input and predicts the objective class <span class="arithmatex">\(\mathbf{I}\)</span>.</p>
+<hr />
+<p><img alt="Neural Network Structure" src="../../assets/images/ANN1_new.png" width="450" /></p>
+<p><strong>Fig. Training Class Predictor ML (<span class="arithmatex">\(\mathcal{F}_{CL}\)</span>)</strong></p>
+<hr />
+<ul>
+<li>
+<p><span class="arithmatex">\(\mathcal{F}_{CL}: {\mathbf{x}^*}^{[1 \times n]} \overset{\mathcal{F}_{CL}}{\longrightarrow} \mathbf{I}^{[1 \times M]}\)</span></p>
+</li>
+<li>
+<p><span class="arithmatex">\(\quad \mathbf{I} \in \{I^{&lt;}, I^{\leq}, I^{=}, I^{\diamond}\}\)</span></p>
+</li>
+</ul>
+<hr />
+<p><img alt="Suurogate Classifier" src="../../assets/images/Surr_Class1.png" width="400" /></p>
+<p><strong>Fig. Class Predictor ML (<span class="arithmatex">\(\mathcal{F}_{CL}\)</span>) as surrogate model and classifier</strong></p>
+<hr />
 <h3 id="ann1-architecture">ANN1 Architecture</h3>
 
 
