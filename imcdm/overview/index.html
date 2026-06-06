@@ -1957,17 +1957,18 @@
 <h2 id="mathematical-formulation">Mathematical Formulation</h2>
 <div class="arithmatex">\[
 \begin{aligned}
-\text{minimize} \quad &amp; \mathbf{f}(\mathbf{x}) = \left( f_1(\mathbf{x}), f_2(\mathbf{x}), \dots, f_m(\mathbf{x}) \right)^T \\
-\text{subject to} \quad &amp; g_i(\mathbf{x}) \le 0, \quad i = 1, 2, \dots, p \\
-&amp; h_j(\mathbf{x}) = 0, \quad j = 1, 2, \dots, q \\
-&amp; \mathbf{x} \in \mathcal{S}
+\text{minimize} \quad &amp; \mathbf{f}(\mathbf{x}) = \left\{ f_1(\mathbf{x}), f_2(\mathbf{x}), \dots, f_M(\mathbf{x}) \right\}^T \\
+\text{subject to} \quad &amp; g_j(\mathbf{x}) \le 0, \quad j = 1, 2, \dots, J \\
+&amp; h_k(\mathbf{x}) = 0, \quad k = 1, 2, \dots, K \\
+&amp; x_i^{LB} \leq x_i \leq x_i^{UB}, \quad i = 1, 2, \dots, n.
 \end{aligned}
 \]</div>
 <p>where- </p>
 <ul>
 <li><strong><span class="arithmatex">\(\mathbf{x}\)</span>:</strong> The <span class="arithmatex">\(n\)</span>-dimensional decision variable vector within the feasible space <span class="arithmatex">\(\mathcal{S}\)</span>.</li>
 <li><strong><span class="arithmatex">\(\mathbf{f}(\mathbf{x})\)</span>:</strong> The objective vector representing <span class="arithmatex">\(m\)</span> distinct criteria (<span class="arithmatex">\(m \ge 2\)</span>).</li>
-<li><strong><span class="arithmatex">\(g_i(\mathbf{x}), h_j(\mathbf{x})\)</span>:</strong> The inequality and equality constraints mapping system boundaries.</li>
+<li><strong><span class="arithmatex">\(g_j(\mathbf{x})\)</span>:</strong> <span class="arithmatex">\(J\)</span> inequality constraints.</li>
+<li><strong><span class="arithmatex">\(h_k(\mathbf{x})\)</span>:</strong> <span class="arithmatex">\(K\)</span> equality constraints.</li>
 </ul>
 <hr />
 <h2 id="multi-criterion-decision-making">Multi-Criterion Decision-making</h2>
