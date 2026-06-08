@@ -62,7 +62,7 @@ markdown_extensions:
   - admonition                 
 
 copyright: >
-  Copyright &copy; 2026 Deepanshu Yadav and Kalyanmoy Deb | COIN Lab | Michigan State University. All rights reserved.
+  Copyright &copy; 2026 Deepanshu Yadav | COIN Lab | Michigan State University. All rights reserved.
   <span style="margin-left: 15px;">
     <a href="https://github.com/deepanshuIITM/pyMachDM" target="_blank"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" style="vertical-align: middle;" alt="Version"></a>
     <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="vertical-align: middle; margin-left: 5px;" alt="License"></a>
@@ -90,12 +90,13 @@ nav:
           - Reference Points: imcdm/preferences/reference_points.md
           - Reference Directions: imcdm/preferences/reference_directions.md
           - Intermediate Solutions: imcdm/preferences/intermediate_solns.md
+      - Scalarization Methods: imcdm/scalarization.md
       - iMCDM Methods:
           - GUESS: imcdm/methods/guess.md
           - STEM: imcdm/methods/stem.md
           - STOM: imcdm/methods/stom.md
           - NIMBUS: imcdm/methods/nimbus.md
-      - Scalarization Methods: imcdm/scalarization.md
+      
 
   - Machine-DM: 
       - Overview: mach-dm/machdm.md

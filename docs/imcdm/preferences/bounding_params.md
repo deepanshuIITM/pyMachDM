@@ -1,12 +1,12 @@
-## Problem-specific 
+## Problem-specific Parameters
 
 ### Ideal Point: $\textbf{z}^*$
 
-### Nadir Point: $\textbf{z}^{nad}$
+### Nadir Point: $\textbf{z}^{\rm nad}$
 
-## Human-defined
+## Human-defined Parameters
 
-### Parameter: $\bar{z}$
+### Relaxation Parameter: $\bar{z}$
 
-### Parameter: $\varepsilon$
+### Tighting Parameter: $\varepsilon$
 
