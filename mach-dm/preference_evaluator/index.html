@@ -1950,9 +1950,16 @@
   <h1>Preference Evaluator Metric</h1>
 
 <h3 id="solution-comparison">Solution Comparison</h3>
-<h3 id="inter-objective-class-comparison">Inter-objective Class Comparison</h3>
-<h3 id="intra-objective-class-comparison">Intra-objective Class Comparison</h3>
-<h3 id="mathcalm_pe-metric"><span class="arithmatex">\(\mathcal{M}_{PE}\)</span> Metric</h3>
+<h3 id="inter-objective-class-comparison"><strong>Inter-objective Class Comparison</strong></h3>
+<p><span class="arithmatex">\(\mathcal{M}_{PE} = \max_{m=1}^{M} (3-I_m)\)</span></p>
+<h3 id="intra-objective-class-comparison"><strong>Intra-objective Class Comparison</strong></h3>
+<p><span class="arithmatex">\(\max \big(\bar{z}_i^n, \varepsilon_j^n  \big),\ 
+    \forall i \in \textbf{I}^{\leq}, \forall j \in \textbf{I}^{\geq}\)</span></p>
+<h3 id="mathcalm_pe-metric"><strong><span class="arithmatex">\(\mathcal{M}_{PE}\)</span> Metric</strong></h3>
+<p><span class="arithmatex">\(\mathcal{M}_{PE} = \max_{m=1}^{M} (3-I_m) + \left\{\max \big(\bar{z}_i^n, \varepsilon_j^n  \big),\ 
+    \forall i \in \textbf{I}^{\leq}, \forall j \in \textbf{I}^{\geq}\right\}\)</span></p>
+<p>The values of <span class="arithmatex">\(\bar{z}_i^n\)</span> and <span class="arithmatex">\(\varepsilon_j^n\)</span> are obtained by normalizing the bounding parameters <span class="arithmatex">\(\varepsilon_j\)</span> and <span class="arithmatex">\(\bar{z}_i\)</span> between 0 and 1, with respect to the target point <span class="arithmatex">\(\mathbf{f}^T\)</span>, as follows:</p>
+<p><span class="arithmatex">\(\bar{z}_i^n = \dfrac{\bar{z}_i -  f_i^T}{f_i^R - f_i^T}\)</span>,  <span class="arithmatex">\(\varepsilon_j^n = \dfrac{f_j^T - \varepsilon_j}{f_j^T - f_j^{\ast}}\)</span></p>
 
 
 
