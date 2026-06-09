@@ -19,7 +19,7 @@ Class Predictor ML ($\mathcal{F}_{CL}$) takes Pareto-optimal solution $(\mathbf{
 
 * $\mathcal{F}_{CL}: {\mathbf{x}^*}^{[1 \times n]} \overset{\mathcal{F}_{CL}}{\longrightarrow} \mathbf{I}^{[1 \times M]}$
  
-* $\quad \mathbf{I} \in \{I^{<}, I^{\leq}, I^{=}, I^{\diamond}\}$
+* $\quad \mathbf{I} \in \{I^{<}, I^{\leq}, I^{=}, I^{\geq}\}$
 
 ----
 ![Suurogate Classifier](../assets/images/Surr_Class1.png){ width="400"}

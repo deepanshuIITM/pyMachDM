@@ -1951,7 +1951,23 @@
 
 <h3 id="defining-bounding-parameters">Defining Bounding Parameters</h3>
 <h3 id="data-preperation">Data Preperation</h3>
-<h3 id="training-ann2-mathcalf_pp">Training ANN2: <span class="arithmatex">\(\mathcal{F}_{PP}\)</span></h3>
+<h3 id="training-ann2-mathcalf_pp"><strong>Training ANN2: <span class="arithmatex">\(\mathcal{F}_{PP}\)</span></strong></h3>
+<p>Parameter Predictor ML (<span class="arithmatex">\(\mathcal{F}_{PP}\)</span>) takes Pareto-optimal solution <span class="arithmatex">\((\mathbf{x}^*)\)</span> as input and predicts the bounding parameters <span class="arithmatex">\((\bar{z}, \varepsilon)\)</span>.</p>
+<hr />
+<p><img alt="Neural Network Structure" src="../../assets/images/ANN2_new.png" width="450" /></p>
+<p><strong>Fig. Training Parameter Predictor ML (<span class="arithmatex">\(\mathcal{F}_{PP}\)</span>)</strong></p>
+<hr />
+<ul>
+<li>
+<p><span class="arithmatex">\(\mathcal{F}_{PL}: {\mathbf{x}^*}^{[1 \times n]} \overset{\mathcal{F}_{CL}}{\longrightarrow} (\bar{z}_i, \varepsilon_j, 0)^{[1 \times M]}\)</span></p>
+</li>
+<li>
+<p><span class="arithmatex">\(\quad i \in I^{\leq}, j \in I^{\geq}, ~\text{and}~ 0 \in \{I^&lt;, I^{=}\}\)</span></p>
+</li>
+</ul>
+<hr />
+<p><img alt="Suurogate Classifier" src="../../assets/images/Surr_Class2.png" width="400" /></p>
+<p><strong>Fig. Parameter Predictor ML (<span class="arithmatex">\(\mathcal{F}_{PP}\)</span>) as surrogate model and classifier</strong></p>
 <h3 id="ann2-architecture">ANN2 Architecture</h3>
 
 
