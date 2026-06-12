@@ -22,6 +22,7 @@ theme:
     - navigation.tracking      # Highlights right sidebar headings dynamically
     - navigation.expand        # Forces left sidebar sections to stay expanded
     - navigation.footer        # <-- CRITICAL: Automatically builds crisp "Previous" and "Next" buttons at the bottom
+    - content.code.copy # Enables the nice copy button on your pip install code blocks
 
   palette:
     - media: "(prefers-color-scheme: light)"
@@ -51,9 +52,15 @@ extra_javascript:
   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
 markdown_extensions:
+  - attr_list          # Allows us to add custom CSS classes to markdown
+  - md_in_html         # Permits markdown processing inside raw HTML blocks
+  - pymdownx.emoji:    # Enables icons (like the megaphone and chess piece)
+      emoji_index: !!python/name:pymdownx.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
   - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
+      pygments_style: material
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
