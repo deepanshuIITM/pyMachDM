@@ -26,7 +26,7 @@ Furthermore, our framework offers a variety of different features which cover va
 
 
 
--   [💻 <span style="color: inherit !important;">**Interface**</span>](home/quickstart/)
+-   [💻 <span style="color: inherit !important;">**Interface**</span>](home/quickstart.md)
 
     ---
 
@@ -34,7 +34,7 @@ Furthermore, our framework offers a variety of different features which cover va
     
     * **`machine_dm`**
 
--   [:test_tube: <span style="color: inherit !important;">**Benchmark Problems**</span>](bench-imcdm/problems/bench_probs/)
+-   [:test_tube: <span style="color: inherit !important;">**Benchmark Problems**</span>](bench-imcdm/problems/bench_probs.md)
 
     ---
 
@@ -44,55 +44,55 @@ Furthermore, our framework offers a variety of different features which cover va
     * **Multi-objective:** ZDT1, DTLZ2
 
 
--   [:balance_scale: <span style="color: inherit !important;"> **Interactive MCDMs**</span>](imcdm/overview/)
+-   [:balance_scale: <span style="color: inherit !important;"> **Interactive MCDMs**</span>](imcdm/overview.md)
 
     ---
 
     List of interactive MCDM Methods:
 
-    * [NIMBUS](imcdm/methods/nimbus/)
-    * [STEM](imcdm/methods/stem/)
-    * [GUESS](imcdm/methods/guess/), etc.
+    * [NIMBUS](imcdm/methods/nimbus.md)
+    * [STEM](imcdm/methods/stem.md)
+    * [GUESS](imcdm/methods/guess.md), etc.
 
--   [:robot: <span style="color: inherit !important;"> **Machine-DM**</span>](mach-dm/machdm/)
+-   [:robot: <span style="color: inherit !important;"> **Machine-DM**</span>](mach-dm/machdm.md)
 
     ---
 
     Components of Machine-DM:
 
-    * [Class Predictor ML](mach-dm/class_predictor/)
-    * [Parameter Predictor ML](mach-dm/parameter_predictor/)
-    * [Preference Evaluator Metric](mach-dm/preference_evaluator/)
+    * [Class Predictor ML](mach-dm/class_predictor.md)
+    * [Parameter Predictor ML](mach-dm/parameter_predictor.md)
+    * [Preference Evaluator Metric](mach-dm/preference_evaluator.md)
 
--   [🎯 <span style="color: inherit !important;"> **Bench-iMCDM**</span>](bench-imcdm/overview/)
+-   [🎯 <span style="color: inherit !important;"> **Bench-iMCDM**</span>](bench-imcdm/overview.md)
 
     ---
 
     Benchmarking iMCDM Methods:
 
-    * [Bench-iMCDM framework](bench-imcdm/overview/)
-    * [Pre-trained ANNs](bench-imcdm/pretrained/)
-    * [Performance Metrics](bench-imcdm/metrics/)
+    * [Bench-iMCDM framework](bench-imcdm/overview.md)
+    * [Pre-trained ANNs](bench-imcdm/pretrained.md)
+    * [Performance Metrics](bench-imcdm/metrics.md)
 
--   [📊 <span style="color: inherit !important;">  **Visualization**</span>](visualization/)
+-   [📊 <span style="color: inherit !important;">  **Visualization**</span>](visualization.md)
 
     ---
 
     Visualization methods:
 
-    * [Two-dimensional](visualization/#bi-objective-problems)
-    * [Three-dimensional](visualization/#three-objective-problems)
-    * [More than Three-dimensional](visualization/#many-objective-problems)
+    * [Two-dimensional](visualization.md/#bi-objective-problems)
+    * [Three-dimensional](visualization.md/#three-objective-problems)
+    * [More than three-dimensional](visualization.md/#many-objective-problems)
 
--   [🎓 <span style="color: inherit !important;"> **Tutorial**</span>](tutorials/tutorials)
+-   [🎓 <span style="color: inherit !important;"> **Tutorial**</span>](tutorials/tutorials.md)
 
     ---
 
     Tutorial on Basics:
 
-    * [Core Idea](tutorials/core_idea)
-    * [Demo](tutorials/demo)
-    * [Live Script](tutorials/live_script)
+    * [Core Idea](tutorials/core_idea.md)
+    * [Demo](tutorials/demo.md)
+    * [Live Script](tutorials/live_script.md)
 
 </div>
 
