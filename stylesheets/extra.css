@@ -188,19 +188,19 @@ html {
    6. CUSTOM CARD STYLES FOR ANNOUNCEMENTS, INTERFACES, AND BENCHMARKS
    ========================================================================== */
 
-grid cards.card-announcement {
+.grid cards {
     background-color: #74aadd;
     border-radius: 10px;
     padding: 10px;
 }
 
-grid cards.card-interface {
+.grid cards.card-interface {
     background-color: #c2e3cb;
     border-radius: 10px;
     padding: 10px;
 }
 
-grid cards.card-benchmark {
+.grid cards.card-benchmark {
     background-color: #1e1706;
     border-radius: 10px;
     padding: 10px;
