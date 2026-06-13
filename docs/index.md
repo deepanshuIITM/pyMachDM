@@ -5,9 +5,7 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </div>
 
-**pyMachDM** is an open-source Python package designed for simulating human preferences in interactive multi-criteria decision-making (iMCDM) methods.
-
-Our framework offers state-of-the-art single- and multi-objective optimization algorithms.
+**pyMachDM** is an open-source Python package that benchmarks interactive multi-criteria decision-making (iMCDM) methods by simulating human preferences using machine learning-based decision makers (Machine-DM).
 
 
 **`pip install pyMachDM`**
@@ -15,25 +13,28 @@ Our framework offers state-of-the-art single- and multi-objective optimization a
 
 ## **Features**
 
-Furthermore, our framework offers a variety of different features which cover various facets of multi-objective optimization:
+Furthermore, our framework offers a variety of different features which cover various facets of benchmarking iMCDM methods:
 
 <div class="grid cards" markdown>
 
--   📢 **Announcement**
+
+-   📢 **Announcement** 
 
     ---
 
-    Release of **pyMachDM**
-    
--   💻 **Interface**
+    Release of **pyMachDM** 
+
+
+
+-   [💻 <span style="color: inherit !important;">**Interface**</span>](home/quickstart/)
 
     ---
 
-    Main entry point function to run your optimizations:
+    Main entry point function to run your Machine-DM:
     
-    * **`minimize`**
+    * **`machine_dm`**
 
--   :test_tube: **Benchmark Problems**
+-   [:test_tube: <span style="color: inherit !important;">**Benchmark Problems**</span>](bench-imcdm/problems/bench_probs/)
 
     ---
 
@@ -42,55 +43,56 @@ Furthermore, our framework offers a variety of different features which cover va
     * **Single-objective:** Ackley, Griewank, Rastrigin
     * **Multi-objective:** ZDT1, DTLZ2
 
--   :balance_scale: **Interactive MCDMs**
+
+-   [:balance_scale: <span style="color: inherit !important;"> **Interactive MCDMs**</span>](imcdm/overview/)
 
     ---
 
     List of interactive MCDM Methods:
 
-    * **NIMBUS**
-    * **STEM**
-    * **STOM**, etc.
+    * [NIMBUS](imcdm/methods/nimbus/)
+    * [STEM](imcdm/methods/stem/)
+    * [GUESS](imcdm/methods/guess/), etc.
 
--   :robot: **Machine-DM**
+-   [:robot: <span style="color: inherit !important;"> **Machine-DM**</span>](mach-dm/machdm/)
 
     ---
 
     Components of Machine-DM:
 
-    * **Class Predictor ML**
-    * **Parameter Predictor ML**
-    * **Preference Evaluator Metric**
+    * [Class Predictor ML](mach-dm/class_predictor/)
+    * [Parameter Predictor ML](mach-dm/parameter_predictor/)
+    * [Preference Evaluator Metric](mach-dm/preference_evaluator/)
 
--   🎯 **Bench-iMCDM**
+-   [🎯 <span style="color: inherit !important;"> **Bench-iMCDM**</span>](bench-imcdm/overview/)
 
     ---
 
     Benchmarking iMCDM Methods:
 
-    * **Bench-iMCDM framework**
-    * **Integrating Machine-DM and iMCDM**
-    * **Performance Metrics**
+    * [Bench-iMCDM framework](bench-imcdm/overview/)
+    * [Pre-trained ANNs](bench-imcdm/pretrained/)
+    * [Performance Metrics](bench-imcdm/metrics/)
 
--   📊 **Visualization**
+-   [📊 <span style="color: inherit !important;">  **Visualization**</span>](visualization/)
 
     ---
 
     Visualization methods:
 
-    * **2-dimensional**
-    * **3-dimensional**
-    * **More than 3-dimensional**
+    * [Two-dimensional](visualization/#bi-objective-problems)
+    * [Three-dimensional](visualization/#three-objective-problems)
+    * [More than Three-dimensional](visualization/#many-objective-problems)
 
--   🎓 **Tutorial**
+-   [🎓 <span style="color: inherit !important;"> **Tutorial**</span>](tutorials/tutorials)
 
     ---
 
     Tutorial on Basics:
 
-    * **Core Idea**
-    * **Demo**
-    * **Live Script**
+    * [Core Idea](tutorials/core_idea)
+    * [Demo](tutorials/demo)
+    * [Live Script](tutorials/live_script)
 
 </div>
 

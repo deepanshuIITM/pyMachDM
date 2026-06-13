@@ -112,10 +112,15 @@ nav:
       - Preference Evaluator Metric: mach-dm/preference_evaluator.md
   - Bench-iMCDM:
       - Overview: bench-imcdm/overview.md
-      - Benchmark Problems:
+      - Benchmark Problems: 
+          - Problem Information: bench-imcdm/problems/bench_probs.md
           - DTLZ7: bench-imcdm/problems/dtlz.md
       - Pretrained ANNs: bench-imcdm/pretrained.md
       - Performance Metrics: bench-imcdm/metrics.md
   - Visualization: visualization.md
-  - Tutorials: tutorials.md
+  - Tutorials: 
+      - Overview: tutorials/tutorials.md
+      - Core Idea: tutorials/core_idea.md
+      - Demo: tutorials/demo.md
+      - Live Script: tutorials/live_script.md
   - References: references.md

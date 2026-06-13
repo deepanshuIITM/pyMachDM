@@ -183,3 +183,25 @@ html {
 [data-md-color-scheme="slate"] .md-sidebar--secondary .md-nav__link {
     color: #cbd5e1 !important;
 }
+
+/* ==========================================================================
+   6. CUSTOM CARD STYLES FOR ANNOUNCEMENTS, INTERFACES, AND BENCHMARKS
+   ========================================================================== */
+
+grid cards.card-announcement {
+    background-color: #74aadd;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+grid cards.card-interface {
+    background-color: #c2e3cb;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+grid cards.card-benchmark {
+    background-color: #1e1706;
+    border-radius: 10px;
+    padding: 10px;
+}
