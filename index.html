@@ -340,17 +340,18 @@
   
   
   
-    <li class="md-tabs__item">
-      <a href="tutorials/" class="md-tabs__link">
-        
-  
-  
     
+    
+      <li class="md-tabs__item">
+        <a href="tutorials/tutorials/" class="md-tabs__link">
+          
+  
   
   Tutorials
 
-      </a>
-    </li>
+        </a>
+      </li>
+    
   
 
       
@@ -1655,7 +1656,35 @@
   
   
     <li class="md-nav__item">
-      <a href="bench-imcdm/problems/dtlz.md" class="md-nav__link">
+      <a href="bench-imcdm/problems/bench_probs/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Problem Information
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="bench-imcdm/problems/dtlz/" class="md-nav__link">
         
   
   
@@ -1780,9 +1809,25 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="tutorials/" class="md-nav__link">
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
   
   
   <span class="md-ellipsis">
@@ -1796,7 +1841,135 @@
   
   
 
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Tutorials
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tutorials/tutorials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Overview
+  
+
+    
+  </span>
+  
+  
+
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tutorials/core_idea/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Core Idea
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tutorials/demo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Demo
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="tutorials/live_script/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Live Script
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -1891,28 +2064,27 @@
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </div>
 
-<p><strong>pyMachDM</strong> is an open-source Python package designed for simulating human preferences in interactive multi-criteria decision-making (iMCDM) methods.</p>
-<p>Our framework offers state-of-the-art single- and multi-objective optimization algorithms.</p>
+<p><strong>pyMachDM</strong> is an open-source Python package that benchmarks interactive multi-criteria decision-making (iMCDM) methods by simulating human preferences using machine learning-based decision makers (Machine-DM).</p>
 <p><strong><code>pip install pyMachDM</code></strong></p>
 <h2 id="features"><strong>Features</strong></h2>
-<p>Furthermore, our framework offers a variety of different features which cover various facets of multi-objective optimization:</p>
+<p>Furthermore, our framework offers a variety of different features which cover various facets of benchmarking iMCDM methods:</p>
 <div class="grid cards">
 <ul>
 <li>
-<p>📢 <strong>Announcement</strong></p>
+<p>📢 <strong>Announcement</strong> </p>
 <hr />
-<p>Release of <strong>pyMachDM</strong></p>
+<p>Release of <strong>pyMachDM</strong> </p>
 </li>
 <li>
-<p>💻 <strong>Interface</strong></p>
+<p><a href="home/quickstart/">💻 <span style="color: inherit !important;"><strong>Interface</strong></span></a></p>
 <hr />
-<p>Main entry point function to run your optimizations:</p>
+<p>Main entry point function to run your Machine-DM:</p>
 <ul>
-<li><strong><code>minimize</code></strong></li>
+<li><strong><code>machine_dm</code></strong></li>
 </ul>
 </li>
 <li>
-<p><img alt="🧪" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f9ea.svg" title=":test_tube:" /> <strong>Benchmark Problems</strong></p>
+<p><a href="bench-imcdm/problems/bench_probs/"><img alt="🧪" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f9ea.svg" title=":test_tube:" /> <span style="color: inherit !important;"><strong>Benchmark Problems</strong></span></a></p>
 <hr />
 <p>Built-in benchmark test suits:</p>
 <ul>
@@ -1921,53 +2093,53 @@
 </ul>
 </li>
 <li>
-<p><img alt="⚖" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2696.svg" title=":balance_scale:" /> <strong>Interactive MCDMs</strong></p>
+<p><a href="imcdm/overview/"><img alt="⚖" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/2696.svg" title=":balance_scale:" /> <span style="color: inherit !important;"> <strong>Interactive MCDMs</strong></span></a></p>
 <hr />
 <p>List of interactive MCDM Methods:</p>
 <ul>
-<li><strong>NIMBUS</strong></li>
-<li><strong>STEM</strong></li>
-<li><strong>STOM</strong>, etc.</li>
+<li><a href="imcdm/methods/nimbus/">NIMBUS</a></li>
+<li><a href="imcdm/methods/stem/">STEM</a></li>
+<li><a href="imcdm/methods/guess/">GUESS</a>, etc.</li>
 </ul>
 </li>
 <li>
-<p><img alt="🤖" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f916.svg" title=":robot:" /> <strong>Machine-DM</strong></p>
+<p><a href="mach-dm/machdm/"><img alt="🤖" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@15.1.0/assets/svg/1f916.svg" title=":robot:" /> <span style="color: inherit !important;"> <strong>Machine-DM</strong></span></a></p>
 <hr />
 <p>Components of Machine-DM:</p>
 <ul>
-<li><strong>Class Predictor ML</strong></li>
-<li><strong>Parameter Predictor ML</strong></li>
-<li><strong>Preference Evaluator Metric</strong></li>
+<li><a href="mach-dm/class_predictor/">Class Predictor ML</a></li>
+<li><a href="mach-dm/parameter_predictor/">Parameter Predictor ML</a></li>
+<li><a href="mach-dm/preference_evaluator/">Preference Evaluator Metric</a></li>
 </ul>
 </li>
 <li>
-<p>🎯 <strong>Bench-iMCDM</strong></p>
+<p><a href="bench-imcdm/overview/">🎯 <span style="color: inherit !important;"> <strong>Bench-iMCDM</strong></span></a></p>
 <hr />
 <p>Benchmarking iMCDM Methods:</p>
 <ul>
-<li><strong>Bench-iMCDM framework</strong></li>
-<li><strong>Integrating Machine-DM and iMCDM</strong></li>
-<li><strong>Performance Metrics</strong></li>
+<li><a href="bench-imcdm/overview/">Bench-iMCDM framework</a></li>
+<li><a href="bench-imcdm/pretrained/">Pre-trained ANNs</a></li>
+<li><a href="bench-imcdm/metrics/">Performance Metrics</a></li>
 </ul>
 </li>
 <li>
-<p>📊 <strong>Visualization</strong></p>
+<p><a href="visualization/">📊 <span style="color: inherit !important;">  <strong>Visualization</strong></span></a></p>
 <hr />
 <p>Visualization methods:</p>
 <ul>
-<li><strong>2-dimensional</strong></li>
-<li><strong>3-dimensional</strong></li>
-<li><strong>More than 3-dimensional</strong></li>
+<li><a href="visualization/#bi-objective-problems">Two-dimensional</a></li>
+<li><a href="visualization/#three-objective-problems">Three-dimensional</a></li>
+<li><a href="visualization/#many-objective-problems">More than Three-dimensional</a></li>
 </ul>
 </li>
 <li>
-<p>🎓 <strong>Tutorial</strong></p>
+<p><a href="tutorials/tutorials">🎓 <span style="color: inherit !important;"> <strong>Tutorial</strong></span></a></p>
 <hr />
 <p>Tutorial on Basics:</p>
 <ul>
-<li><strong>Core Idea</strong></li>
-<li><strong>Demo</strong></li>
-<li><strong>Live Script</strong></li>
+<li><a href="tutorials/core_idea">Core Idea</a></li>
+<li><a href="tutorials/demo">Demo</a></li>
+<li><a href="tutorials/live_script">Live Script</a></li>
 </ul>
 </li>
 </ul>

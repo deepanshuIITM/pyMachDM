@@ -2,118 +2,134 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/references/</loc>
-         <lastmod>2026-06-12</lastmod>
-    </url>
-    <url>
-         <loc>https://deepanshuIITM.github.io/pyMachDM/tutorials/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/visualization/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/bench-imcdm/metrics/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/bench-imcdm/overview/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/bench-imcdm/pretrained/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
-         <loc>https://deepanshuIITM.github.io/pyMachDM/bench-imcdm/problems/overview/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/bench-imcdm/problems/bench_probs/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/bench-imcdm/problems/dtlz/</loc>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/home/features/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/home/quickstart/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/overview/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/scalarization/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/methods/guess/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/methods/nimbus/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/methods/stem/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/methods/stom/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/preferences/bounding_params/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/preferences/intermediate_solns/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/preferences/obj_class/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/preferences/reference_directions/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/imcdm/preferences/reference_points/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/installation/requirements/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/installation/setup/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/installation/steps/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/installation/troubleshooting/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/mach-dm/class_predictor/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/mach-dm/machdm/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/mach-dm/parameter_predictor/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/mach-dm/preference_evaluator/</loc>
-         <lastmod>2026-06-12</lastmod>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/tutorials/core_idea/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/tutorials/demo/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/tutorials/live_script/</loc>
+         <lastmod>2026-06-13</lastmod>
+    </url>
+    <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/tutorials/tutorials/</loc>
+         <lastmod>2026-06-13</lastmod>
     </url>
 </urlset>
