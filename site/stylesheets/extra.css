@@ -185,23 +185,31 @@ html {
 }
 
 /* ==========================================================================
-   6. CUSTOM CARD STYLES FOR ANNOUNCEMENTS, INTERFACES, AND BENCHMARKS
+   CUSTOM HOME PAGE CARDS (LIGHT MODE)
    ========================================================================== */
-
-.grid cards {
-    background-color: #74aadd;
-    border-radius: 10px;
-    padding: 10px;
+.cards {
+    border-radius: 8px !important;
+    padding: 2px !important;
+    border: 1px solid #207edb !important;
+    box-shadow: 0 4px 6px -1px rgba(80, 173, 202, 0.781) !important;
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
 }
 
-.grid cards.card-interface {
-    background-color: #c2e3cb;
-    border-radius: 10px;
-    padding: 10px;
+/* Benchmark Card Background (Light Mode) */
+.cards {
+    background-color: #f1f2f334 !important; /* Clean light slate gray */
 }
 
-.grid cards.card-benchmark {
-    background-color: #1e1706;
-    border-radius: 10px;
-    padding: 10px;
+/* Add a subtle hover animation to make them feel interactive */
+.cards:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 15px -3px rgba(202, 80, 127, 0.781) !important;
+}
+
+/* ==========================================================================
+   CUSTOM HOME PAGE CARDS (DARK MODE ADAPTATION)
+   ========================================================================== */
+[data-md-color-scheme="slate"] .cards {
+    background-color: #1e293b !important; /* Deep dark slate */
+    border-color: #334155 !important;
 }
