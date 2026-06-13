@@ -1,17 +1,24 @@
-# **pyMachDM: Machine Learning-Based Decision-Makers in Python**
+
+# <span style="color: #1e85ca !important;">**pyMachDM: Machine Learning-Based Decision-Makers in Python**</span>
+
 
 <div class="sidebar-badges">
   <a href="https://github.com/deepanshuIITM/pyMachDM"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" alt="Version"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="License: MIT"></a>
 </div>
 
+---
+
+## **About**
+
 **pyMachDM** is an open-source Python package that benchmarks interactive multi-criteria decision-making (iMCDM) methods by simulating human preferences using machine learning-based decision makers (Machine-DM).
 
 
 **`pip install pyMachDM`**
 
+---
 
-## **Features**
+## **News and Updates**
 
 Furthermore, our framework offers a variety of different features which cover various facets of benchmarking iMCDM methods:
 
@@ -21,10 +28,14 @@ Furthermore, our framework offers a variety of different features which cover va
 -   📢 **Announcement** 
 
     ---
+    ![Logo](assets/images/logo1.png){ width="50"} Release of **pyMachDM** 
 
-    Release of **pyMachDM** 
+    <span style="margin-left: 15px;">
+    <a href="https://github.com/deepanshuIITM/pyMachDM" target="_blank"><img src="https://img.shields.io/badge/version-1.0.0-blue.svg" style="vertical-align: middle;" alt="Version"></a>
+    <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="vertical-align: middle; margin-left: 5px;" alt="License"></a>
+  </span>
 
-
+   
 
 -   [💻 <span style="color: inherit !important;">**Interface**</span>](home/quickstart.md)
 
@@ -34,66 +45,15 @@ Furthermore, our framework offers a variety of different features which cover va
     
     * **`machine_dm`**
 
--   [:test_tube: <span style="color: inherit !important;">**Benchmark Problems**</span>](bench-imcdm/problems/bench_probs.md)
-
-    ---
-
-    Built-in benchmark test suits:
-
-    * **Single-objective:** Ackley, Griewank, Rastrigin
-    * **Multi-objective:** ZDT1, DTLZ2
-
-
--   [:balance_scale: <span style="color: inherit !important;"> **Interactive MCDMs**</span>](imcdm/overview.md)
-
-    ---
-
-    List of interactive MCDM Methods:
-
-    * [NIMBUS](imcdm/methods/nimbus.md)
-    * [STEM](imcdm/methods/stem.md)
-    * [GUESS](imcdm/methods/guess.md), etc.
-
--   [:robot: <span style="color: inherit !important;"> **Machine-DM**</span>](mach-dm/machdm.md)
-
-    ---
-
-    Components of Machine-DM:
-
-    * [Class Predictor ML](mach-dm/class_predictor.md)
-    * [Parameter Predictor ML](mach-dm/parameter_predictor.md)
-    * [Preference Evaluator Metric](mach-dm/preference_evaluator.md)
-
--   [🎯 <span style="color: inherit !important;"> **Bench-iMCDM**</span>](bench-imcdm/overview.md)
-
-    ---
-
-    Benchmarking iMCDM Methods:
-
-    * [Bench-iMCDM framework](bench-imcdm/overview.md)
-    * [Pre-trained ANNs](bench-imcdm/pretrained.md)
-    * [Performance Metrics](bench-imcdm/metrics.md)
-
--   [📊 <span style="color: inherit !important;">  **Visualization**</span>](visualization.md)
-
-    ---
-
-    Visualization methods:
-
-    * [Two-dimensional](visualization.md/#bi-objective-problems)
-    * [Three-dimensional](visualization.md/#three-objective-problems)
-    * [More than three-dimensional](visualization.md/#many-objective-problems)
-
--   [🎓 <span style="color: inherit !important;"> **Tutorial**</span>](tutorials/tutorials.md)
-
-    ---
-
-    Tutorial on Basics:
-
-    * [Core Idea](tutorials/core_idea.md)
-    * [Demo](tutorials/demo.md)
-    * [Live Script](tutorials/live_script.md)
-
 </div>
 
+
+## **Disclaimer**
+
+ We acknowledge that:
+ 
+* Human decision-making cannot be fully replicated by Machine-DM
+* The primary goal is to enable systematic benchmarking of iMCDM methods
+* The framework provides a digital platform for interactive MCDM research and development
+* We hope to facilitate the design of more effective iMCDM methods for real-world use
 
