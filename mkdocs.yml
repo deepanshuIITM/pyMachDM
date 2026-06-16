@@ -57,7 +57,6 @@ markdown_extensions:
   - pymdownx.emoji:    # Enables icons (like the megaphone and chess piece)
       emoji_index: !!python/name:pymdownx.emoji.twemoji
       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-  - attr_list
   - pymdownx.highlight:
       anchor_linenums: true
       pygments_style: material
@@ -75,6 +74,10 @@ copyright: >
     <a href="https://opensource.org/licenses/MIT" target="_blank"><img src="https://img.shields.io/badge/License-MIT-yellow.svg" style="vertical-align: middle; margin-left: 5px;" alt="License"></a>
   </span>
 
+plugins:
+  - search
+  - mkdocs-jupyter
+
 docs_dir: docs
 
 # NESTED NAVIGATION: Creates clean sub-levels and sub-sub-levels in the left menu
@@ -83,12 +86,14 @@ nav:
       - Overview: index.md
       - Key Features: home/features.md
       - Quick Start: home/quickstart.md
+
   - Installation:
       - Setup Guide: installation/setup.md
       - Configuration:
           - Requirements: installation/requirements.md
           - Installation Steps: installation/steps.md
       - Troubleshooting: installation/troubleshooting.md
+      
   - Interactive MCDMs:
       - Overview: imcdm/overview.md
       - Preference Elicitation:
@@ -104,7 +109,6 @@ nav:
           - STOM: imcdm/methods/stom.md
           - NIMBUS: imcdm/methods/nimbus.md
       
-
   - Machine-DM: 
       - Overview: mach-dm/machdm.md
       - Class Predictor ANN: mach-dm/class_predictor.md
@@ -122,5 +126,6 @@ nav:
       - Overview: tutorials/tutorials.md
       - Core Idea: tutorials/core_idea.md
       - Demo: tutorials/demo.md
+      # - Live Script: live_script.ipynb
       - Live Script: tutorials/live_script.md
   - References: references.md

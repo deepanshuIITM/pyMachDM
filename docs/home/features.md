@@ -26,14 +26,14 @@
 
     List of interactive MCDM Methods:
 
-    * [NIMBUS](imcdm/methods/nimbus.md)
-    * [STEM](imcdm/methods/stem.md)
-    * [GUESS](imcdm/methods/guess.md)
-    * [STOM](imcdm/methods/stom.md)
+    * [NIMBUS Method](imcdm/methods/nimbus.md)
+    * [STEM Method](imcdm/methods/stem.md)
+    * [GUESS Method](imcdm/methods/guess.md)
+    * [STOM Method](imcdm/methods/stom.md)
 </div>
 </div>
 
-## ⚙️ **Frameworks**
+## 🏗️ **Frameworks**
 <div class="grid card" markdown>
 <div class="grid cards" markdown>
 -   [:robot: <span style="color: inherit !important;"> **Machine-DM**</span>](mach-dm/machdm.md)

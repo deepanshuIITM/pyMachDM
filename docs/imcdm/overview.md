@@ -1,8 +1,11 @@
-## Multi-objective Optimization
+# **Multi-objective Optimization**
 
 * **Core Concept:** Optimization of multiple, mutually conflicting objective functions simultaneously where no single optimal solution exists.
 * **Goal:** To identify the "Pareto optimal" set—solutions where one objective cannot be improved without degrading another.
-## Mathematical Formulation
+
+--- 
+
+## ⚙️ **Formulation**
 
 $$
 \begin{aligned}
@@ -23,7 +26,7 @@ where-
 ---
 
 
-## Multi-Criterion Decision-making
+## ⚖️ **MCDM Methods**
 
 * **A Priori Methods:** Preferences, goals, or hard constraints are explicitly specified by the user *before* running the optimization routine.
 * **A Posteriori Methods:** The algorithm generates a wide array of Pareto-optimal trade-offs first; the user selects the final operating design *afterward*.
@@ -31,7 +34,7 @@ where-
 
 ---
 
-## Interactive Visualization
+## 📊 **Visualization**
 
 * **Core Purpose:** Serves as the interactive cognitive interface enabling users to interpret complex, high-dimensional trade-off spaces.
 * **Parallel Coordinates Plots:** Maps highly dimensional parameters along vertical parallel axes, allowing real-time filtering of solution pathways.

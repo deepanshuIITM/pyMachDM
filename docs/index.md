@@ -18,6 +18,14 @@
 
 ---
 
+## 🔭 **Big Picture**
+
+![pyMachDM Outline](assets/images/Bench-iMCDM Outline.png){ width="850"}
+
+**Fig. Outline of Machine Learning-Based Decision-Makers**
+
+---
+
 ## 🔔 **News and Updates**
 
 Furthermore, our framework offers a variety of different features which cover various facets of benchmarking iMCDM methods:
@@ -28,6 +36,7 @@ Furthermore, our framework offers a variety of different features which cover va
 -   📢 **Announcement** 
 
     ---
+
     ![Logo](assets/images/logo1.png){ width="50"} Release of **pyMachDM** 
 
     <span style="margin-left: 15px;">
@@ -47,6 +56,7 @@ Furthermore, our framework offers a variety of different features which cover va
 </div>
 </div>
 
+---
 
 ## ⚠️ **Disclaimer**
 

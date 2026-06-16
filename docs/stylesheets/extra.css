@@ -213,3 +213,68 @@ html {
     background-color: #1e293b !important; /* Deep dark slate */
     border-color: #334155 !important;
 }
+
+/* ==========================================================================
+   DIVIDER ENHANCEMENT FOR BETTER SECTION SEPARATION
+   ========================================================================== */
+
+/* Light mode */
+[data-md-color-scheme="default"] .md-typeset hr {
+    border: none;
+    height: 1.0px;
+    background-color: #a5b6f0;
+}
+
+/* Dark mode */
+[data-md-color-scheme="slate"] .md-typeset hr {
+    border: none;
+    height: 1.0px;
+    background-color: #65738d;
+}
+
+
+/* ==========================================================================
+   6. INTERACTIVE NOTEBOOK & COLAB BUTTON STYLES
+   ========================================================================== */
+
+/* Style for the Colab Badge to match your theme */
+.colab-button img {
+    transition: transform 0.2s ease, box-shadow 0.2s ease !important;
+    border-radius: 4px;
+    box-shadow: 0 4px 6px -1px rgba(32, 126, 219, 0.4);
+}
+
+.colab-button img:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 15px -3px rgba(37, 84, 215, 0.6) !important;
+}
+
+/* Responsive wrapper for embedded JupyterLite iframes */
+iframe {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: #ffffff;
+}
+
+/* Dark mode adjustment for iframe surroundings */
+[data-md-color-scheme="slate"] iframe {
+    border-color: #334155 !important;
+    background-color: #1e293b;
+}
+
+/* ==========================================================================
+   10. EMBEDDED COLAB PREVIEW CANVAS
+   ========================================================================== */
+iframe[src*="colab.research.google.com"] {
+    width: 100% !important;
+    height: 850px !important;
+    border: 1px solid #1170ee !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(14, 79, 159, 0.12) !important;
+}
+
+/* Dark mode border adjustments for the canvas edge */
+[data-md-color-scheme="slate"] iframe[src*="colab.research.google.com"] {
+    border-color: #334155 !important;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4) !important;
+}
