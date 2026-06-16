@@ -868,6 +868,8 @@
       <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
       
       
+        
+      
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
           
@@ -910,6 +912,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -918,10 +922,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#multi-objective-optimization" class="md-nav__link">
+  <a href="#formulation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Multi-objective Optimization
+        ⚙️ Formulation
       
     </span>
   </a>
@@ -929,10 +933,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mathematical-formulation" class="md-nav__link">
+  <a href="#mcdm-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mathematical Formulation
+        ⚖️ MCDM Methods
       
     </span>
   </a>
@@ -940,21 +944,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#multi-criterion-decision-making" class="md-nav__link">
+  <a href="#visualization" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Multi-Criterion Decision-making
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interactive-visualization" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interactive Visualization
+        📊 Visualization
       
     </span>
   </a>
@@ -2049,6 +2042,8 @@
   
   
   
+    
+  
   
     <label class="md-nav__title" for="__toc">
       <span class="md-nav__icon md-icon"></span>
@@ -2057,10 +2052,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#multi-objective-optimization" class="md-nav__link">
+  <a href="#formulation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Multi-objective Optimization
+        ⚙️ Formulation
       
     </span>
   </a>
@@ -2068,10 +2063,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#mathematical-formulation" class="md-nav__link">
+  <a href="#mcdm-methods" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Mathematical Formulation
+        ⚖️ MCDM Methods
       
     </span>
   </a>
@@ -2079,21 +2074,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#multi-criterion-decision-making" class="md-nav__link">
+  <a href="#visualization" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Multi-Criterion Decision-making
-      
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#interactive-visualization" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Interactive Visualization
+        📊 Visualization
       
     </span>
   </a>
@@ -2120,14 +2104,13 @@
   
 
 
-  <h1>Overview</h1>
-
-<h2 id="multi-objective-optimization">Multi-objective Optimization</h2>
+<h1 id="multi-objective-optimization"><strong>Multi-objective Optimization</strong></h1>
 <ul>
 <li><strong>Core Concept:</strong> Optimization of multiple, mutually conflicting objective functions simultaneously where no single optimal solution exists.</li>
 <li><strong>Goal:</strong> To identify the "Pareto optimal" set—solutions where one objective cannot be improved without degrading another.</li>
 </ul>
-<h2 id="mathematical-formulation">Mathematical Formulation</h2>
+<hr />
+<h2 id="formulation">⚙️ <strong>Formulation</strong></h2>
 <div class="arithmatex">\[
 \begin{aligned}
 \text{minimize} \quad &amp; \mathbf{f}(\mathbf{x}) = \left\{ f_1(\mathbf{x}), f_2(\mathbf{x}), \dots, f_M(\mathbf{x}) \right\}^T \\
@@ -2144,14 +2127,14 @@
 <li><strong><span class="arithmatex">\(h_k(\mathbf{x})\)</span>:</strong> <span class="arithmatex">\(K\)</span> equality constraints.</li>
 </ul>
 <hr />
-<h2 id="multi-criterion-decision-making">Multi-Criterion Decision-making</h2>
+<h2 id="mcdm-methods">⚖️ <strong>MCDM Methods</strong></h2>
 <ul>
 <li><strong>A Priori Methods:</strong> Preferences, goals, or hard constraints are explicitly specified by the user <em>before</em> running the optimization routine.</li>
 <li><strong>A Posteriori Methods:</strong> The algorithm generates a wide array of Pareto-optimal trade-offs first; the user selects the final operating design <em>afterward</em>.</li>
 <li><strong>Interactive Methods:</strong> A tight, real-time loop where the system generates candidate options, the user gives feedback, and the algorithm continuously adapts its search path.</li>
 </ul>
 <hr />
-<h2 id="interactive-visualization">Interactive Visualization</h2>
+<h2 id="visualization">📊 <strong>Visualization</strong></h2>
 <ul>
 <li><strong>Core Purpose:</strong> Serves as the interactive cognitive interface enabling users to interpret complex, high-dimensional trade-off spaces.</li>
 <li><strong>Parallel Coordinates Plots:</strong> Maps highly dimensional parameters along vertical parallel axes, allowing real-time filtering of solution pathways.</li>
