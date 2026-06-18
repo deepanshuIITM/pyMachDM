@@ -129,5 +129,5 @@ nav:
       - Overview: tutorials/tutorials.md
       - Core Idea: tutorials/core_idea.md
       - Demo: tutorials/demo.md
-      - Live Script: tutorials/live_script.md
+      - Live Script: tutorials/live_script.ipynb
   - References: references.md
