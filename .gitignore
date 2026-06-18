@@ -1,0 +1,9 @@
+# Ignore all compiled MkDocs and Jupyter documentation build outputs
+site/
+docs/jupyter-app/build/
+jupyter-app/build/
+
+# Ignore Python environment and caches
+.venv/
+__pycache__/
+*.pyc
