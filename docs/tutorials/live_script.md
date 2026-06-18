@@ -3,7 +3,7 @@
 You can modify and run the framework parameters directly in the browser console below. 
 
 <iframe
-  src="https://jupyterlite.github.io/demo/lab/index.html?fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/tutorials/live_script.ipynb"
+  src="https://jupyterlite.github.io/demo/lab/index.html?fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/tutorials/live_script.ipynb&fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/tutorials/ANN1_structure.json&fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/tutorials/ANN1_weights.h5&fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/tutorials/ANN2_structure.json&fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/tutorials/ANN2_weights.h5&fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/tutorials/scalers.json"
   width="100%"
   height="700px"
   style="border: 1px solid #207edb; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"
