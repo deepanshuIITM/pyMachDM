@@ -20,7 +20,7 @@
 
 ## 🔭 **Big Picture**
 
-![pyMachDM Outline](assets/images/MachDM_Outline.png){ width="850"}
+![pyMachDM Outline](assets/images/MachDM_Outline.png){ width="1500"}
 
 **Fig. Outline of Machine Learning-Based Decision-Makers**
 
