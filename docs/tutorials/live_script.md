@@ -1,17 +1,13 @@
-# Live Interactive Script
+### 🚀 Live Interactive Sandbox
 
-You can edit and execute the code blocks below natively in your browser. No installation required!
+You can modify and run the framework parameters directly in the browser console below. 
 
-<!-- <iframe
-  src="https://jupyterlite.github.io/demo/lab/index.html?path=docs/live_script.ipynb"
+<iframe
+  src="https://jupyterlite.github.io/demo/lab/index.html?fromURL=https://raw.githubusercontent.com/deepanshuIITM/pyMachDM/main/docs/live_script.ipynb"
   width="100%"
   height="700px"
-  style="border: 1px solid #207edb; border-radius: 8px;"
+  style="border: 1px solid #207edb; border-radius: 8px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"
   allow="fullscreen">
-</iframe> -->
+</iframe>
 
-<a href="https://colab.research.google.com/github/deepanshuIITM/pyMachDM/blob/main/docs/live_script.ipynb" 
-   target="_blank" 
-   style="background-color: #207edb; color: white; padding: 12px 24px; text-decoration: none; border-radius: 4px; font-weight: bold; display: inline-block;">
-   🚀 Launch Interactive Tutorial (Cloud Backend)
-</a>
+> 💡 **Tip:** This environment comes pre-installed with `pymoo v0.4.1`. Remember to include the `np.float = float` hotfix and use the flattened legacy paths we just verified for your imports!

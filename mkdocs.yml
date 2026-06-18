@@ -114,6 +114,7 @@ nav:
       - Class Predictor ANN: mach-dm/class_predictor.md
       - Parameter Predictor ANN: mach-dm/parameter_predictor.md
       - Preference Evaluator Metric: mach-dm/preference_evaluator.md
+
   - Bench-iMCDM:
       - Overview: bench-imcdm/overview.md
       - Benchmark Problems: 
@@ -121,11 +122,12 @@ nav:
           - DTLZ7: bench-imcdm/problems/dtlz.md
       - Pretrained ANNs: bench-imcdm/pretrained.md
       - Performance Metrics: bench-imcdm/metrics.md
+
   - Visualization: visualization.md
+
   - Tutorials: 
       - Overview: tutorials/tutorials.md
       - Core Idea: tutorials/core_idea.md
       - Demo: tutorials/demo.md
-      # - Live Script: live_script.ipynb
-      - Live Script: tutorials/live_script.md
+      - Sandbox Notebook: tutorials/live_script.md
   - References: references.md
