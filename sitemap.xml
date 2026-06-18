@@ -105,6 +105,10 @@
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/jupyter-app/live_script/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/jupyter-app/consoles/jupyter-lite/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
@@ -125,11 +129,19 @@
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/jupyter-app/notebooks/live_script/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/jupyter-app/repl/jupyter-lite/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
          <loc>https://deepanshuIITM.github.io/pyMachDM/jupyter-app/tree/jupyter-lite/</loc>
+         <lastmod>2026-06-18</lastmod>
+    </url>
+    <url>
+         <loc>https://deepanshuIITM.github.io/pyMachDM/jupyter-app/tree/live_script/</loc>
          <lastmod>2026-06-18</lastmod>
     </url>
     <url>
